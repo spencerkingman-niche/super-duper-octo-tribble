@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC:400,500|Spectral:400,500&display=swap');
+
+/* =========================================================================================*/
+/* ===== STYLE 1 ===== */
+/* =========================================================================================*/
+.ac-style-1 {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+    padding: 2rem 2rem;
+}
+
+.ac-style-1 * {
+    color: #2ECC71;
+    font-family: 'Raleway';
+}
+
+.ac-style-1 label {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.ac-style-1 .ac-input {
+    background-color: transparent;
+    border: 2px solid #BDC3C7;
+    border-radius: 2.5rem;
+    color: #626567;
+    /**/
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 2rem;
+    position: relative;
+    z-index: 100;
+}
+
+.ac-style-2 .ac-input::placeholder {
+    color: #626567;
+}
+
+.ac-style-1 .ac-input:focus {
+    border-color: #2ECC71;
+}
+
+.ac-style-1 .ac-list {
+    border-radius: 1.25rem;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+    right: 2rem;
+    left: 2rem;
+    top: calc(100% - 2rem - 2.5rem);
+    height: auto;
+}
+
+.ac-style-1 .ac-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: inherit;
+    padding: 1rem 2rem;
+}
+
+.ac-style-1 .ac-item:first-child {
+    padding-top: calc(1rem + 2.5rem);
+}
+
+.ac-style-1 .ac-item * {
+    color: #626567;
+}
+
+.ac-style-1 .ac-item:hover *,
+.ac-style-1 .ac-item.active * {
+    color: #2ECC71;
+}
+/* =========================================================================================*/
+/* ===== STYLE 2 ===== */
+/* =========================================================================================*/
+.ac-style-2 {
+    background-color: #34495E;
+    padding: 4rem 2rem;
+}
+
+.ac-style-2 * {
+    color: #F8F9F9;
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+.ac-style-2 label {
+    color: #F8F9F9;
+    font-family: 'Spectral SC', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.ac-style-2 .ac-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #F0F3F4;
+    /**/
+    height: 2.5rem;
+    padding: 0 2rem;
+    z-index: 999;
+}
+
+.ac-style-2 .ac-input::placeholder {
+    color: #F8F9F9;
+}
+
+.ac-style-2::before {
+    content:" "; 
+    border-left: 1.5rem solid transparent;
+    border-right: 1.5rem solid transparent;
+    border-top: 1rem solid #F0F3F4;
+    position: absolute;
+    bottom: 3rem;
+    left: calc(50% - 1.5rem);
+}
+
+.ac-style-2 .ac-input:focus {
+    border-color: #F0F3F4;
+}
+
+.ac-style-2 .ac-list {
+    right: 2rem;
+    left: 2rem;
+    top: calc(100% - 4rem + 2rem);
+    height: auto;
+}
+
+.ac-style-2 .ac-item {
+    background-color: #F0F3F4;
+    padding: 1rem 2rem;
+}
+
+.ac-style-2 .ac-item * {
+    color: #34495E;
+}
+
+.ac-style-2 .ac-item:hover,
+.ac-style-2 .ac-item.active {
+    background-color: #85929E;
+}
+
+.ac-style-2 .ac-item:hover *,
+.ac-style-2 .ac-item.active * {
+    color: #F8F9F9;
+}

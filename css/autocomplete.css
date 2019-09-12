@@ -1,0 +1,95 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /**/
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Autocomplete Element */
+.ui-autocomplete {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 4rem;
+    max-width: 30rem;
+    padding: 0;
+    width: 100%;
+}
+
+.ui-autocomplete * {
+    display: inline-block;
+}
+
+/* Autocomplete Label */
+.ui-autocomplete label {
+    font-weight: 1rem;
+    font-weight: 600;
+    /**/
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+/* Autocomplete Input */
+.ac-input {
+    border: 2px solid #eeeeee;
+    background-color: #ffffff;
+    /**/
+    line-height: 3rem;
+    height: 3rem;
+    padding: 0rem 1rem;
+    width: 100%;
+}
+
+.ac-input:focus {
+    border-color: lightblue;
+    outline: none;
+}
+
+/* List of Autocomplete Items */
+.ac-list {
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    /**/
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/* Autocomplete Items */
+.ac-item {
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #222222;
+    text-decoration: none;
+    /**/
+    padding: 0.5rem 1rem;;
+    width: 100%;
+}
+
+.ac-item:hover,
+.ac-item.active {
+    background-color: lightblue;
+}
+
+.ac-item .ac-name {
+    color: #222222;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+    /**/
+    width: 100%;
+}
+
+.ac-item .ac-location {
+    color: #666666;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+    /**/
+    width: 100%;
+}

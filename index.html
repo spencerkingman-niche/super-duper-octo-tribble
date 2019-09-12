@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/autocomplete.css"> <!-- Default Styling -->
+    <link rel="stylesheet" href="./css/ac-themes.css"> <!-- Different Styles -->
+    
+    <!-- Form Styling, used for displaying autocomplete items -->
+    <style> 
+        form {
+            width: 30rem;
+            margin: 2rem auto;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <div class="ui-autocomplete ac-style-1" id="ui-autocomplete-1">
+            <label>Autocomplete Style 1</label>
+            <input class="ac-input" id="ac-input" autocomplete="off" placeholder="Search..."/>
+            <div class="ac-list" id="ac-list"></div>
+        </div>
+        
+        <div class="ui-autocomplete ac-style-2" id="ui-autocomplete-2">
+            <label>Autocomplete Style 2</label>
+            <input class="ac-input" id="ac-input" autocomplete="off" placeholder="Search..."/>
+            <div class="ac-list" id="ac-list"></div>
+        </div>
+    </form>
+    
+</body>
+<!-- Javascript -->
+<script src="./js/jquery-3.4.1.min.js" type="text/javascript"></script>
+<script src="./js/JSONPUtil.js" type="text/javascript"></script>
+<script src="./js/autocomplete.js" type="text/javascript"></script>
+</html>
